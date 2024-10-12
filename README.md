@@ -1,2 +1,2 @@
-# flutter_ui_designs
-A project showcasing implementation of various UI designs in Flutter.
+# my_flutter_designs
+Flutter UI's designed by me for practice or fun.

@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "io.github.kashifo" "\0"
-            VALUE "FileDescription", "flutter_ui_designs" "\0"
+            VALUE "FileDescription", "my_flutter_designs" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flutter_ui_designs" "\0"
+            VALUE "InternalName", "my_flutter_designs" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 io.github.kashifo. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flutter_ui_designs.exe" "\0"
-            VALUE "ProductName", "flutter_ui_designs" "\0"
+            VALUE "OriginalFilename", "my_flutter_designs.exe" "\0"
+            VALUE "ProductName", "my_flutter_designs" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
