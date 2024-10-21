@@ -1,4 +1,4 @@
-package io.github.kashifo.my_flutter_designs;
+package io.github.kashifo.flutter_ui_collection;
 
 import io.flutter.embedding.android.FlutterActivity;
 

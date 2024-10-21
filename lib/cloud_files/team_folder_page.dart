@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_flutter_designs/cloud_files/copy/project_page.dart';
+import 'package:flutter_ui_collection/cloud_files/project_page.dart';
 
 class TeamFolderPage extends StatefulWidget {
   const TeamFolderPage({Key? key}) : super(key: key);

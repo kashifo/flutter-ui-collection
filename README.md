@@ -1,2 +1,2 @@
-# my_flutter_designs
-Flutter UI's designed by me for practice or fun.
+# flutter-ui-collection
+A collection of Flutter UI design with code implementation.

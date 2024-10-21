@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'cloud_files/copy/team_folder_page.dart';
+import 'cloud_files/team_folder_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      // home: const ProjectPage(folderName: 'Music'),
+      debugShowCheckedModeBanner: false,
       home: const TeamFolderPage(),
     );
   }
