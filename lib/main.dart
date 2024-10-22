@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'cloud_files/team_folder_page.dart';
+import 'package:flutter_ui_collection/clubapp/clubapp_original.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue, primary: Colors.indigo),
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const TeamFolderPage(),
+      home: const ClubAppOriginal(),
     );
   }
 }
