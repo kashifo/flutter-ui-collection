@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_collection/cloud_files/project_page.dart';
 
+/*
+Credits:
+https://www.youtube.com/watch?v=Qg9N_FOhLzo
+https://github.com/mjsdcoding/cloud_files_storage_flutter_ui
+ */
+
 class TeamFolderPage extends StatefulWidget {
   const TeamFolderPage({Key? key}) : super(key: key);
 

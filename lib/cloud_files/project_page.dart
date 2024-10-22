@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+/*
+Credits:
+https://www.youtube.com/watch?v=Qg9N_FOhLzo
+https://github.com/mjsdcoding/cloud_files_storage_flutter_ui
+ */
+
 class ProjectPage extends StatefulWidget {
   final String folderName;
   const ProjectPage({required this.folderName, super.key});
