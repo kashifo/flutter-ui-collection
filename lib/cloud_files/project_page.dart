@@ -141,7 +141,9 @@ class _ProjectPageState extends State<ProjectPage> {
           BoxShadow(color: Colors.white, spreadRadius: 7, blurRadius: 1)
         ]),
         child: FloatingActionButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
           child: const Icon(Icons.add),
         ),
       ),

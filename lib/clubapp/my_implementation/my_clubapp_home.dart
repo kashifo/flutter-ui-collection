@@ -100,6 +100,7 @@ InkWell gridItem(BuildContext context, String title, IconData iconData, Color ic
 
               }
           ));*/
+      Navigator.pop(context);
     },
     child: Container(
       decoration: BoxDecoration(

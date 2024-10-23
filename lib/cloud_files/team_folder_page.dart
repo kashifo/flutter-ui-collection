@@ -8,7 +8,7 @@ https://github.com/mjsdcoding/cloud_files_storage_flutter_ui
  */
 
 class TeamFolderPage extends StatefulWidget {
-  const TeamFolderPage({Key? key}) : super(key: key);
+  const TeamFolderPage({super.key});
 
   @override
   State<TeamFolderPage> createState() => _TeamFolderPageState();
@@ -215,7 +215,9 @@ class _TeamFolderPageState extends State<TeamFolderPage> {
           BoxShadow(color: Colors.white, spreadRadius: 7, blurRadius: 1)
         ]),
         child: FloatingActionButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
           child: const Icon(Icons.add),
         ),
       ),

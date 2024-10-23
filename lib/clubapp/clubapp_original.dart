@@ -97,20 +97,25 @@ class _ClubAppOriginalState extends State<ClubAppOriginal> {
           )
         ]
     ),
-    child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Container(
-            padding: const EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: background,
-              shape: BoxShape.circle,
-            ),
-            child: Icon(iconData, color: Colors.white)
-        ),
-        const SizedBox(height: 8),
-        Text(title.toUpperCase(), style: Theme.of(context).textTheme.titleMedium)
-      ],
+    child: InkWell(
+      onTap: (){
+        Navigator.pop(context);
+      },
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: background,
+                shape: BoxShape.circle,
+              ),
+              child: Icon(iconData, color: Colors.white)
+          ),
+          const SizedBox(height: 8),
+          Text(title.toUpperCase(), style: Theme.of(context).textTheme.titleMedium)
+        ],
+      ),
     ),
   );
 }
