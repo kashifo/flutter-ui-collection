@@ -5,6 +5,8 @@ import 'package:flutter_ui_collection/cloud_files/team_folder_page.dart';
 import 'package:flutter_ui_collection/clubapp/clubapp_original.dart';
 import 'package:flutter_ui_collection/clubapp/my_implementation/my_clubapp_home.dart';
 
+import 'modern_login_mitch_koko/pages/login_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -37,6 +39,7 @@ class HomeGrid extends StatelessWidget {
     'screenshots/empty.png',
     'screenshots/clubapp_original.png',
     'screenshots/my_clubapp_home.png',
+    'screenshots/empty.png',
   ];
 
   gotoScreen(BuildContext context, int index){
@@ -50,6 +53,7 @@ class HomeGrid extends StatelessWidget {
           case 2: return ProjectPage(folderName: 'Music',); break;
           case 4: return ClubAppOriginal(); break;
           case 5: return MyClubAppHome(); break;
+          case 6: return LoginPage(); break;
 
           default: return MyClubAppHome();
         }
